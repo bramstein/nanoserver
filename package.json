@@ -1,0 +1,20 @@
+{
+  "name": "nano-server",
+  "version": "0.0.1",
+  "description": "A simple server.",
+  "main": "lib/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mini-server": "./bin/nano-server"
+  },
+  "author": "Bram Stein <b.l.stein@gmail.com>",
+  "license": "BSD",
+  "devDependencies": {},
+  "dependencies": {
+    "errorhandler": "^1.4.1",
+    "express": "^4.13.1",
+    "serve-index": "^1.7.1"
+  }
+}
