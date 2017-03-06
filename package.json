@@ -10,11 +10,19 @@
     "nanoserver": "./bin/nanoserver"
   },
   "author": "Bram Stein <b.l.stein@gmail.com>",
-  "license": "BSD",
+  "license": "BSD-3-Clause",
   "devDependencies": {},
   "dependencies": {
     "errorhandler": "^1.4.1",
     "express": "^4.13.1",
     "serve-index": "^1.7.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bramstein/nanoserver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bramstein/nanoserver/issues"
+  },
+  "homepage": "https://github.com/bramstein/nanoserver#readme"
 }
